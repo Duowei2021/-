@@ -19,8 +19,9 @@
     -->
     <meta name="keywords" content="HTML5,前端,CSS3">
     <meta name="description" content="这是一个不错的网站">
-    <!-- 
-        <meta http-equiv="refresh" content="3;url=https://www.github.com">
+     
+    <meta http-equiv="refresh" content="3;url=https://www.github.com">
+    <!--
         将页面重定向到另一个网站，也就是说3秒之后该网页会跳转到meta标签中的网址上去
      -->
      
