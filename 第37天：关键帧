@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .outer{
+            height: 250px;
+            border-bottom: 5px black solid;
+            margin: 50px auto;
+            overflow: hidden;
+        }
+        .outer div{
+            float: left;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #bfa;
+
+            animation: ball 0.5s forwards ease-in alternate infinite;
+        }
+
+        div.box2{
+            background-color: orange;
+            animation-delay: .1s;
+        }
+        div.box3{
+            background-color: yellow;
+            animation-delay: .2s;
+        }
+        div.box4{
+            background-color: yellowgreen;
+            animation-delay: .3s;
+        }
+        div.box5{
+            background-color: blue;
+            animation-delay: .4s;
+        }
+        div.box6{
+            background-color: pink;
+            animation-delay: .12s;
+        }
+        div.box7{
+            background-color: tomato;
+            animation-delay: .31s;
+        }
+        div.box8{
+            background-color: skyblue;
+            animation-delay: .21s;
+        }
+        div.box9{
+            background-color: chocolate;
+            animation-delay: .13s;
+        }
+        div.box1{
+            background-color: red;
+            animation-delay: .3s;
+        }
+
+        /* 创建小球下落的动画 */
+        @keyframes ball{
+            from{
+                margin-top: 0;
+            }
+
+            to{
+                margin-top: 200px;
+            }
+
+            /* 20%,60%,to{
+                margin-top: 200px;
+                animation-timing-function: ease-in;
+            }
+
+            40%{
+                margin-top: 50px;
+            }
+
+            80%{
+                margin-top: 100px;
+            } */
+
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+        <div class="box5"></div>
+        <div class="box6"></div>
+        <div class="box7"></div>
+        <div class="box8"></div>
+        <div class="box9"></div>
+    </div>    
+</body>
+</html>
